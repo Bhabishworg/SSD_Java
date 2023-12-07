@@ -1,0 +1,35 @@
+package lab6;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class WordCounter {
+	/**
+	 * Maps words to their occurrence count.
+	 */
+	private final Map<String, Integer> wordMap = new HashMap<String, Integer>();
+	
+	int addWord(String word) {		
+		int count = 1;
+		for (String key : wordMap.keySet()) {
+			if (key.equals(word))
+				count++;
+		}
+		wordMap.put(word, count);
+		
+		return count;
+	}
+	
+	void addSentence(String sentence) {
+		String[] words = sentence.split(" ");
+		for (String word : words) {
+			addWord(word);
+		}
+	}
+	
+	void outputResults() {
+		for (Map<String, Integer>) {
+			
+		}
+	}
+}
