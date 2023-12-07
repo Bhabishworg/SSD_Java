@@ -1,8 +1,12 @@
 package lab2;
 
+/**
+ * Defines methods for counting words, letters and the length
+ * of the sentence.
+ */
 public interface Counter {
 	/**
-	 * Counts words in the sentence.
+	 * Counts words in the given sentence.
 	 * 
 	 * @param sentence The given sentence.
 	 * @return The number of words in the sentence.
@@ -10,7 +14,7 @@ public interface Counter {
 	int countWords(String sentence);
 	
 	/**
-	 * Counts letters in the sentence.
+	 * Counts letters in the given sentence.
 	 * 
 	 * @param sentence The given sentence.
 	 * @return The number of letters in the sentence.
@@ -18,7 +22,7 @@ public interface Counter {
 	int countLetters(String sentence);
 	
 	/**
-	 * Gets length of the sentence.
+	 * Gets length of the given sentence.
 	 * 
 	 * @param sentence The given sentence.
 	 * @return The length of the sentence.
