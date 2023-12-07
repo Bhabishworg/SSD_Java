@@ -1,7 +1,20 @@
 package lab1;
 
+/**
+ * Serves as the base class for various geometric shapes.
+ * Subclasses (Circle, Rectangle) extend this class to implement specific shapes.
+ */
 abstract class Shape {
-	private int sides; // The number of sides of the shape
+	private int sides;		// The number of sides of the shape
+	
+	/**
+	 * Constructs an instance of Circle class with given no. of sides.
+	 * 
+	 * @param sides The number of sides of the shape.
+	 */
+	Shape(int sides){
+		this.sides = sides;
+	}
 	
 	/**
 	 * Gets the area of the shapes.
@@ -9,15 +22,6 @@ abstract class Shape {
 	 * @return The area of the shapes.
 	 */
 	abstract public int getArea();
-	
-	/**
-	 * Constructor.
-	 * 
-	 * @param sides The number of sides of the shape.
-	 */
-	Shape(int sides){
-		this.sides = sides;
-	}
 	
 	/**
 	 * Gets the number of sides of the shapes.
@@ -38,7 +42,7 @@ abstract class Shape {
 	}
 	
 	/**
-	 * Sets the string representation of objects of Shape class.
+	 * Sets the string representation of the Shape object.
 	 * 
 	 * @return A text that provides the area of the shape.
 	 */

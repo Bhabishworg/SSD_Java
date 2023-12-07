@@ -1,12 +1,16 @@
 package lab1;
 
-public class Rectangle extends Shape{
-	private int length; // The length of the rectangle.
-	private int width;  // The width of the rectangle.
+/**
+ * Represents the shape of a geometric Rectangle and extends the abstract 
+ * Shape class.
+ */
+public class Rectangle extends Shape {
+	private int length; 	// The length of the rectangle.
+	private int width;  	// The width of the rectangle.
 	
 	/**
-	 * Constructor.
-	 * 
+	 * Constructs an instance of Rectangle class.
+	 * It sets the no. of sides to 4.
 	 */
 	Rectangle(){
 		super(4);
@@ -49,7 +53,8 @@ public class Rectangle extends Shape{
 	}
 	
 	/**
-	 * Overriding the abstract method from parent class Shape.
+	 * Gets the area of the rectangle.
+	 * Overrides the getArea method from parent class Shape.
 	 * 
 	 * @return The area of the rectangle.
 	 */
@@ -59,7 +64,7 @@ public class Rectangle extends Shape{
 	}
 	
 	/**
-	 * Sets the string representation of objects of Rectangle class.
+	 * Sets the string representation of the Rectangle object.
 	 * 
 	 * @return A text that provides the area of the rectangle.
 	 */

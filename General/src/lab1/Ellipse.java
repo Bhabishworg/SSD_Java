@@ -1,16 +1,22 @@
 package lab1;
 
-public class Ellipse extends Rectangle{
+/**
+ * Represents the shape of a geometric ellipse and extends the Rectangle 
+ * class.
+ */
+public class Ellipse extends Rectangle {
 	/**
-	 * Constructor.
-	 * 
+	 * Constructs an instance of Ellipse class.
+	 * It sets the no. of sides to 0.
 	 */
 	Ellipse(){
 		setSides(0);
 	}
 	
 	/**
-	 * Overriding the abstract method from parent class Shape.
+	 * Gets the area of the ellipse.
+	 * Overrides the getArea method from class Shape parent to parent 
+	 * class Rectangle.
 	 * 
 	 * @return The area of the ellipse.
 	 */
@@ -21,7 +27,7 @@ public class Ellipse extends Rectangle{
 	}
 	
 	/**
-	 * Sets the string representation of objects of Ellipse class.
+	 * Sets the string representation of the Ellipse object.
 	 * 
 	 * @return A text that provides the area of the ellipse.
 	 */
