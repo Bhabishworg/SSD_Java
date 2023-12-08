@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TriangleTest" project="General" tests="25" started="25" failures="2" errors="0" ignored="0">
+  <testsuite name="lab4.TriangleTest" time="0.059" displayname="TriangleTest" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]">
+    <testsuite name="isScaleneTest(lab4.TriangleTest)" time="0.0" displayname="isScaleneTest(int, int, int)" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isScaleneTest(int, int, int)]">
+      <testcase name="isScaleneTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[1] 10, 20, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isScaleneTest(int, int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="isScaleneTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[2] 10, 30, 20" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isScaleneTest(int, int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="isScaleneTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[3] 20, 10, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isScaleneTest(int, int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="isScaleneTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[4] 20, 30, 10" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isScaleneTest(int, int, int)]/[test-template-invocation:#4]"/>
+    </testsuite>
+    <testsuite name="setSidesTest(lab4.TriangleTest)" time="0.0" displayname="setSidesTest(int)" parameters="int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int)]">
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[1] 10" parameters="int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int)]/[test-template-invocation:#1]"/>
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[2] 30" parameters="int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int)]/[test-template-invocation:#2]"/>
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[3] 20" parameters="int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int)]/[test-template-invocation:#3]"/>
+    </testsuite>
+    <testsuite name="setSidesTest(lab4.TriangleTest)" time="0.005" displayname="setSidesTest(int, int)" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int)]">
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.005" dynamicTest="true" displayname="[1] 10, 20" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[2] 20, 10" parameters="int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int)]/[test-template-invocation:#2]"/>
+    </testsuite>
+    <testsuite name="setSidesTest(lab4.TriangleTest)" time="0.001" displayname="setSidesTest(int, int, int)" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int, int)]">
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[1] 10, 20, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[2] 10, 30, 20" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[3] 20, 10, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="setSidesTest" classname="lab4.TriangleTest" time="0.002" dynamicTest="true" displayname="[4] 20, 30, 10" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:setSidesTest(int, int, int)]/[test-template-invocation:#4]"/>
+    </testsuite>
+    <testsuite name="isEquilateralTest(lab4.TriangleTest)" time="0.002" displayname="isEquilateralTest(int, int, int)" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isEquilateralTest(int, int, int)]">
+      <testcase name="isEquilateralTest" classname="lab4.TriangleTest" time="0.002" dynamicTest="true" displayname="[1] 10, 10, 10" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isEquilateralTest(int, int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="isEquilateralTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[2] 20, 20, 20" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isEquilateralTest(int, int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="isEquilateralTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[3] 30, 30, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isEquilateralTest(int, int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="isEquilateralTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[4] -10, -10, -10" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isEquilateralTest(int, int, int)]/[test-template-invocation:#4]"/>
+    </testsuite>
+    <testsuite name="isIsoscelesTest(lab4.TriangleTest)" time="0.002" displayname="isIsoscelesTest(int, int, int)" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isIsoscelesTest(int, int, int)]">
+      <testcase name="isIsoscelesTest" classname="lab4.TriangleTest" time="0.002" dynamicTest="true" displayname="[1] 30, 20, 20" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isIsoscelesTest(int, int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="isIsoscelesTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[2] 20, 30, 20" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isIsoscelesTest(int, int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="isIsoscelesTest" classname="lab4.TriangleTest" time="0.0" dynamicTest="true" displayname="[3] 20, 20, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isIsoscelesTest(int, int, int)]/[test-template-invocation:#3]"/>
+      <testcase name="isIsoscelesTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[4] -20, -20, 30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isIsoscelesTest(int, int, int)]/[test-template-invocation:#4]"/>
+      <testcase name="isIsoscelesTest" classname="lab4.TriangleTest" time="0.001" dynamicTest="true" displayname="[5] 20, 20, -30" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:lab4.TriangleTest]/[test-template:isIsoscelesTest(int, int, int)]/[test-template-invocation:#5]"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="lab4.TriangleTest" time="0.023" displayname="TriangleTest" uniqueid="[engine:junit-vintage]/[runner:lab4.TriangleTest]">
+    <testcase name="constructorTest" classname="lab4.TriangleTest" time="0.007" displayname="constructorTest" uniqueid="[engine:junit-vintage]/[runner:lab4.TriangleTest]/[test:constructorTest(lab4.TriangleTest)]"/>
+    <testcase name="getAverageLengthTest" classname="lab4.TriangleTest" time="0.012" displayname="getAverageLengthTest" uniqueid="[engine:junit-vintage]/[runner:lab4.TriangleTest]/[test:getAverageLengthTest(lab4.TriangleTest)]">
+      <failure>
+        <expected>20</expected>
+        <actual>40</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;20&gt; but was: &lt;40&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)&#13;
+	at lab4.TriangleTest.getAverageLengthTest(TriangleTest.java:100)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="getPerimeterTest" classname="lab4.TriangleTest" time="0.001" displayname="getPerimeterTest" uniqueid="[engine:junit-vintage]/[runner:lab4.TriangleTest]/[test:getPerimeterTest(lab4.TriangleTest)]">
+      <failure>
+        <expected>60</expected>
+        <actual>50</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;60&gt; but was: &lt;50&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)&#13;
+	at lab4.TriangleTest.getPerimeterTest(TriangleTest.java:93)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

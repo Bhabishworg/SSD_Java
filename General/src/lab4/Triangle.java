@@ -60,7 +60,7 @@ public class Triangle {
 	}
 
 	/**
-	 * Sets the triangle to be scalene with two sides set to the same value.
+	 * Sets the triangle to be isosceles with two sides set to the same value.
 	 *
 	 * @param length the length of side A, B
 	 * @param other  the length of side C
@@ -86,7 +86,7 @@ public class Triangle {
 	 * @return the total length of all the sides.
 	 */
 	public int getPerimeter() {
-		return sideA + sideB + sideB;
+		return sideA + sideB + sideC;
 	}
 
 	/**
@@ -95,7 +95,7 @@ public class Triangle {
 	 * @return the average length of the sides as an integer
 	 */
 	public int getAverageLength() {
-		return sideA + sideB + sideC / 3;
+		return (sideA + sideB + sideC) / 3;
 	}
 
 	/**

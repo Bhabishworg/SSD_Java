@@ -2,16 +2,13 @@ package lab4;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.Test;
-import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.api.RepeatedTest;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TriangleTest {
 	@ParameterizedTest
-	@CsvSource({"30,20,20", "20,30,20", "20,20,30"})
-	void isIsoscelesTest(int sideA, int sideB, int sideC) {
+	@CsvSource({"30,20,20", "20,30,20", "20,20,30", "-20,-20,30", "20,20,-30"})
+	public void isIsoscelesTest(int sideA, int sideB, int sideC) {
 		Triangle triangle = new Triangle(sideA, sideB, sideC);
 		
 		assertFalse(triangle.isEquilateral());
@@ -20,8 +17,8 @@ public class TriangleTest {
 	}
 	
 	@ParameterizedTest
-	@CsvSource({"10,10,10", "20,20,20", "30,30,30"})
-	void isEquilateralTest(int sideA, int sideB, int sideC) {
+	@CsvSource({"10,10,10", "20,20,20", "30,30,30", "-10,-10,-10"})
+	public void isEquilateralTest(int sideA, int sideB, int sideC) {
 		Triangle triangle = new Triangle(sideA, sideB, sideC);
 		
 		assertTrue(triangle.isEquilateral());
@@ -30,8 +27,8 @@ public class TriangleTest {
 	}
 	
 	@ParameterizedTest
-	@CsvSource({"10,20,30", "10,30,20", "20,10,30", "20,30,10"})
-	void isScaleneTest(int sideA, int sideB, int sideC) {
+	@CsvSource({"10,20,30", "10,30,20", "20,10,30", "20,30,10", "-20,30,10"})
+	public void isScaleneTest(int sideA, int sideB, int sideC) {
 		Triangle triangle = new Triangle(sideA, sideB, sideC);
 		
 		assertFalse(triangle.isEquilateral());
@@ -54,8 +51,8 @@ public class TriangleTest {
 	}
 	
 	@ParameterizedTest
-	@CsvSource({"10,20,30", "10,30,20", "20,10,30", "20,30,10"})
-	void setSidesTest(int sideA, int sideB, int sideC) {
+	@CsvSource({"10,20,30", "10,30,20", "20,10,30", "-20,-30,-10"})
+	public void setSidesTest(int sideA, int sideB, int sideC) {
 		Triangle triangle = new Triangle();
 		triangle.setSides(sideA, sideB, sideC);
 		
@@ -65,8 +62,8 @@ public class TriangleTest {
 	}
 	
 	@ParameterizedTest
-	@CsvSource({"10", "30", "20"})
-	void setSidesTest(int length) {
+	@CsvSource({"10", "30", "20", "-40"})
+	public void setSidesTest(int length) {
 		Triangle triangle = new Triangle();
 		triangle.setSides(length);
 		
@@ -76,8 +73,8 @@ public class TriangleTest {
 	}
 	
 	@ParameterizedTest
-	@CsvSource({"10,20", "20,10"})
-	void setSidesTest(int length, int other) {
+	@CsvSource({"10,20", "20,10", "-10,-20"})
+	public void setSidesTest(int length, int other) {
 		Triangle triangle = new Triangle();
 		triangle.setSides(length, other);
 		
@@ -86,4 +83,32 @@ public class TriangleTest {
 		assertTrue(triangle.isIsosceles());
 	}
 	
+	@Test
+	public void getPerimeterTest() {
+		Triangle triangle1 = new Triangle(10,20,30);
+		Triangle triangle2 = new Triangle(-10,-20,-30);
+		
+		assertEquals(60, triangle1.getPerimeter());
+		assertEquals(60, triangle2.getPerimeter());
+	}
+	
+	@Test
+	public void getAverageLengthTest() {
+		Triangle triangle1 = new Triangle(10,20,30);
+		Triangle triangle2 = new Triangle(-10,-20,-30);
+		
+		assertEquals(20, triangle1.getAverageLength());		
+		assertEquals(20, triangle2.getAverageLength());
+	}
+	
+	@ParameterizedTest
+	@CsvSource({"10,20,30","-10,-20,-30"})
+	public void copyTest(int sideA, int sideB, int sideC) {
+		Triangle triangle = new Triangle(sideA,sideB,sideC);
+		Triangle copy = triangle.copy();
+		
+		assertTrue(copy instanceof Triangle);
+		assertEquals(60, copy.getPerimeter());
+		assertEquals(20, copy.getAverageLength());
+	}
 }
