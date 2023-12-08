@@ -3,15 +3,17 @@ package lab3;
 import java.util.Random;
 
 /**
- * The driver of the program
+ * The Driver class serves as the entry point to display the 
+ * functionality of Stats class. 
  * 
  * @author anon
  */
 public class Driver {
 	/**
-	 * Main method
+	 * The main method is the entry point of the program.
+	 * It creates an instance of Stats class and uses its methods.
 	 * 
-	 * @param args
+	 * @param args The command-line arguments.
 	 */
 	public static void main(String[] args) {
 		final int VALUES = 10;

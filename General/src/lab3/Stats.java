@@ -3,7 +3,8 @@ package lab3;
 import java.util.Arrays;
 
 /**
- * Provides count, maximum value, minimum value, total and average of an array of numbers.
+ * The Stats class provides count, maximum value, minimum 
+ * value, total and average of an array of numbers.
  * 
  * @author anon
  */
@@ -19,10 +20,10 @@ public class Stats {
 	private int count;
 
 	/**
-	 * Adds the number to the {@link lab3.Stats#numbers} array.
-	 * Also, increases the value of {@link lab3.Stats#count} by 1.
+	 * Adds the number to the numbers array.
+	 * Also, increases the value of count by 1.
 	 * 
-	 * @param value a number that goes through the analysis.
+	 * @param value A number that goes through the analysis.
 	 */
 	public void addValue(int value) {
 		numbers[count] = value;
@@ -30,9 +31,9 @@ public class Stats {
 	}
 
 	/**
-	 * Gets the no. of numbers that are analysed.
+	 * Gets the count of the numbers array.
 	 * 
-	 * @return count the no. of numbers that are analysed.
+	 * @return The no. of numbers that are analysed.
 	 */
 	public int getCount() {
 		int count = numbers.length;
@@ -40,7 +41,7 @@ public class Stats {
 	}
 	
 	/**
-	 * Gets the maximum value among the {@link lab3.Stats#numbers}.
+	 * Gets the maximum value among the numbers.
 	 * 
 	 * @return max the maximum value among the numbers.
 	 */
@@ -56,7 +57,7 @@ public class Stats {
 	}
 
 	/**
-	 * Gets the minimum value among the {@link lab3.Stats#numbers}.
+	 * Gets the minimum value among the numbers.
 	 * 
 	 * @return min the minimum value among the numbers.
 	 */
@@ -72,7 +73,7 @@ public class Stats {
 	}
 
 	/**
-	 * Gets the summation of the {@link lab3.Stats#numbers}.
+	 * Gets the summation of the numbers.
 	 * 
 	 * @return total the sum of all the numbers.
 	 */	
@@ -88,7 +89,7 @@ public class Stats {
 	}
 
 	/**
-	 * Gets the mean of the {@link lab3.Stats#numbers}.
+	 * Gets the mean of the numbers.
 	 * 
 	 * @return average the mean of the numbers.
 	 */
@@ -97,10 +98,11 @@ public class Stats {
 		return average;
 	}
 
+	
 	/**
-	 * Provides numbers to be analysed as textual representation of Stats object.
+	 * Sets the string representation of the Stats object.
 	 * 
-	 * @return numbers the numbers that are analysed.
+	 * @return The string of numbers that are analysed.
 	 */
 	@Override
 	public String toString() {
@@ -109,7 +111,7 @@ public class Stats {
 	}
 
 	/**
-	 * Constructor
+	 * Constructs an instance of Stats class.
 	 * 
 	 * @param capacity the no. of numbers that are to be analysed.
 	 */
