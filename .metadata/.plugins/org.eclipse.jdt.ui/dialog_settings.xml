@@ -89,7 +89,7 @@
 		<item key="destdir" value="C:\Users\bhabi\OneDrive\L5 S1\SSD\SSD_java\General\doc"/>
 		<section name="projects">
 			<section name="General">
-				<item key="href" value="file:/C:/Users/bhabi/OneDrive/L5%20S1/SSD/SSD_java/General/doc/"/>
+				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\bhabi\OneDrive\L5 S1\SSD\SSD_java\General\doc"/>
 				<item key="antpath" value="C:\Users\bhabi\OneDrive\L5 S1\SSD\SSD_java\General\javadoc.xml"/>
 			</section>

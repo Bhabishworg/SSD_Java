@@ -1,6 +1,0 @@
-package lab5;
-
-public class NumberSorter {
-	void sort(int [] numbers) {
-	}
-}

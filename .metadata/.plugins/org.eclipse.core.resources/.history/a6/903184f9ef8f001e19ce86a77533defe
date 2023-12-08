@@ -1,9 +1,0 @@
-package lab5;
-
-public class NumberSorter {
-	void sort(int[] numbers) {
-		// The source stack, from which the numbers are popped
-		Stack<Integer> srcStack = new Stack<Integer>();
-	}
-}
- 

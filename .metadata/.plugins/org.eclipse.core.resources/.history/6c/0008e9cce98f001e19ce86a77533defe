@@ -1,5 +1,0 @@
-package lab5;
-
-public class NameManager {
-	List<String> names = new ArrayList<String>();
-}
