@@ -1,6 +1,0 @@
-package lab6;
-
-public class EmailStore {
-	Set<String> emailAddresses = new HashSet<String>();
-
-}

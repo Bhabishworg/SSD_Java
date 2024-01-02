@@ -1,8 +1,0 @@
-package lab6;
-
-import java.util.HashSet;
-
-public class EmailStore {
-	Set<String> emailAddresses = new HashSet<String>();
-
-}
